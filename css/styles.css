@@ -80,6 +80,12 @@ h3 {
   font-weight: bold;
   text-align: center;
 }
+.btn {
+  font-size: 29px;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+}
 h1 {
   text-align: center;
   text-decoration: underline;
@@ -87,13 +93,23 @@ h1 {
   font-stretch: expanded;
 }
 
-@media screen and (max-width: 480px) and (min-width: 300px){
-  body {
-       background-color: black;
-       color: white;
-   }
-
-@media screen and (max-width: 1000px) and (min-width: 700px) {
- body {
-   background-color: teal;
+ .green-background {
+   background-color: green;
  }
+
+ .yellow-background {
+   background-color: yellow;
+ }
+
+ .red-background {
+   background-color: red;
+ }
+ .black-background{
+   background-color: black;
+ }
+.white-text {
+  color: white;
+}
+.black-text {
+  color: black;
+}
